@@ -34,7 +34,7 @@ class Flight:
         except ValueError:
             raise ValueError(f"Invalid seat number: {row_text}")
 
-        if row not in raws:
+        if row not in rows:
             raise ValueError(f"Seat number is out of range: {row}")
 
         return row, letter
