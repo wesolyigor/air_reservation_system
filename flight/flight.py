@@ -74,4 +74,3 @@ class Flight:
                 passenger = self.seats[row][letter]
                 if passenger is not None:
                     yield passenger, f"{row}{letter}"
-

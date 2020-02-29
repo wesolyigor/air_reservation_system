@@ -19,4 +19,3 @@ f.print_tickets(card_printer)
 #print(f.get_airline())
 # print(f.get_flight_number())
 pp(f.seats)
-
